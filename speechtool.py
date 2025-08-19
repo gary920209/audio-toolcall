@@ -30,7 +30,6 @@ from textgrid import TextGrid
 from pyannote.audio import Model, Inference
 from dotenv import load_dotenv
 load_dotenv()
-DICT_PATH = "path/to/your/english_us_arpa.dict"  # Update with your dictionary path
 OPEN_API_KEY = os.getenv("OPEN_API_KEY")
 warnings.filterwarnings("ignore")
 
